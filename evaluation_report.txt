@@ -1,0 +1,24 @@
+Test accuracy: 88.00%
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+     sadness       0.91      0.93      0.92       581
+         joy       0.89      0.93      0.91       695
+        love       0.78      0.70      0.74       159
+       anger       0.90      0.87      0.88       275
+        fear       0.88      0.81      0.84       224
+    surprise       0.67      0.59      0.63        66
+
+    accuracy                           0.88      2000
+   macro avg       0.84      0.81      0.82      2000
+weighted avg       0.88      0.88      0.88      2000
+
+CONFUSION MATRIX
+Label order: ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']
+[[541  15   2  17   6   0]
+ [  8 648  29   2   1   7]
+ [  4  39 112   2   0   2]
+ [ 19  11   1 239   5   0]
+ [ 20   7   0   6 181  10]
+ [  4  10   0   1  12  39]]

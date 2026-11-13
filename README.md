@@ -38,6 +38,16 @@ The project explores multiple classification algorithms:
 - `evaluation_report.txt` – Evaluation results
 - `requirements.txt` – Required Python libraries
 
+  ## Dataset
+
+The project uses a dataset divided into three subsets:
+
+- Training
+- Testing
+- Validation
+
+The dataset files are not included in this repository. The trained model and project source code are provided for reference.
+
 ## Installation
 
 Install the required dependencies:
